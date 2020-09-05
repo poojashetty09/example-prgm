@@ -1,0 +1,73 @@
+
+                  Run  Update  Fork  Load Example  Star PRO  Embed PROEmbed snippet:
+<iframe width="100%" height="300" frameborder="0" src=""></iframe>
+Copy and paste the above HTML to embed your fiddle.
+Done
+  Collaborate Sign in Have any feedback? 
+Fiddle Title
+50 characters remaining.
+Fiddle Description
+300 characters remaining.
+Private Fiddle PRO
+This setting cannot be modified after saving the fiddle.
+Upgrade to PRO
+50% OFF for Early Adopters
+Show Keyboard Shortcuts
+ads via Carbon
+Deploy more with Linux VMs, S3-compatible object storage & global infrastructure. $100 in free credits.
+ads via Carbon
+Schema SQL
+1
+create table test3(usn integer primary key,name varchar(20), phonenumber integer, branch varchar(20));
+2
+insert into test3 values(20,'pooja',15237894,'cs');
+3
+insert into test3 values(21,'riya',78233998,'is');
+4
+insert into test3 values(22,'ziya',65438685,'ec');
+5
+insert into test3 values(23,'maya',26267276,'ec');                                                                                            
+6
+                                                                                          
+Text to DDL
+Query SQL
+1
+select * from test3;
+
+Results
+**Schema (MySQL v5.7)**
+
+    create table test3(usn integer primary key,name varchar(20), phonenumber integer, branch varchar(20));
+    insert into test3 values(20,'pooja',15237894,'cs');
+    insert into test3 values(21,'riya',78233998,'is');
+    insert into test3 values(22,'ziya',65438685,'ec');
+    insert into test3 values(23,'maya',26267276,'ec');                                                                                            
+                                                                                              
+
+---
+
+**Query #1**
+
+    select * from test3;
+
+| usn | name  | phonenumber | branch |
+| --- | ----- | ----------- | ------ |
+| 20  | pooja | 15237894    | cs     |
+| 21  | riya  | 78233998    | is     |
+| 22  | ziya  | 65438685    | ec     |
+| 23  | maya  | 26267276    | ec     |
+
+---
+
+[View on DB Fiddle](https://www.db-fiddle.com/f/pKsWLHPra2g81iSwPoKMPJ/1)
+Copy as Markdown
+Query #1 Execution time: 0ms
+usn	name	phonenumber	branch
+20	pooja	15237894	cs
+21	riya	78233998	is
+22	ziya	65438685	ec
+23	maya	26267276	ec
+
+DB Fiddle – Crafted with ♥ by Status200 in the United Kingdom.
+Terms of Use • Privacy / Cookie Policy • Status200 Ltd © 2018
+×
