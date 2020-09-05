@@ -1,0 +1,18 @@
+Schema SQL
+1
+create table test3(usn integer primary key,name varchar(20), phonenumber integer, branch varchar(20));
+2
+insert into test3 values(20,'pooja',15237894,'cs');
+3
+insert into test3 values(21,'riya',78233998,'is');
+4
+insert into test3 values(22,'ziya',65438685,'ec');
+5
+insert into test3 values(23,'maya',26267276,'ec');   
+
+     Query #1 Execution time: 0ms
+usn	name	phonenumber	branch
+20	pooja	15237894	cs
+21	riya	78233998	is
+22	ziya	65438685	ec
+23	maya	26267276	ec                                                                                
